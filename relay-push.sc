@@ -6,7 +6,7 @@
 import sttp.client4.quick.*
 import sttp.client4.Response
 
-val token = "lip_fFprgYfDCC99uQoUksVI"
+val token = "lip_fFprgYfDCC99uQoUksVI" // it's a localhost token, not a prod one
 val roundId = "elsxDLDE"
 
 val response: Response[String] = quickRequest
